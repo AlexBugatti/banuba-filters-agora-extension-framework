@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://banuba.com'
     s.author           = { 'Banuba Limited' => 'info@banuba.com' }
     s.license          = { :type => 'Commercial', :text => 'https://www.banuba.com/terms' }
-    s.source           = { :git => 'https://github.com/Banuba/banuba-filters-agora-extension-framework.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/AlexBugatti/banuba-filters-agora-extension-framework.git', :tag => s.version.to_s }
     s.platform         = :ios, '13.0'
 
     s.ios.vendored_frameworks = 'BanubaFiltersAgoraExtension.xcframework'
